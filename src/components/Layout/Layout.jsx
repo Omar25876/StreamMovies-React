@@ -7,10 +7,9 @@ import { Outlet } from 'react-router-dom'
 export default function Layout() {
   return <>
    <Navbar/>
-   <div className="container mx-auto py-10">
-    <Outlet/>
-
-   </div>
-   <Footer/>
+  <Outlet/>
+   
+   <Footer />
+   
   </>
 }
